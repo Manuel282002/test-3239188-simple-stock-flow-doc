@@ -34,3 +34,24 @@
   2. What will I do today?
   3. Is anything blocking me?
 - **Rule:** Technical discussions happen after the daily, not during it
+
+- ### Sprint Review
+- **When:** Last day of the sprint — 15:00 UTC
+- **Duration:** Maximum 30 min
+- **Who:** Team + Product Owner (+ stakeholders if applicable)
+- **Goal:** Show what was built and collect feedback
+
+### Sprint Retrospective
+- **When:** Last day of the sprint — after the review
+- **Duration:** Maximum 45 min
+- **Format:** What went well / What to improve / Action commitments
+- **Rule:** Each retro produces at least 1 improvement action with an owner and due date
+
+### Backlog Refinement
+- **When:** Wednesday mid-sprint
+- **Duration:** Maximum 1h
+- **Goal:** Detail and estimate user stories for the next sprint
+- **Exit criterion:** The user story meets the Definition of Ready
+
+---
+

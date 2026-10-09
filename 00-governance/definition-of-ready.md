@@ -1,4 +1,4 @@
-# Definition of Ready (DoR)
+v# Definition of Ready (DoR)
 
 > A User Story is **Ready** when the entire team can start it in the next sprint
 > without needing to resolve fundamental questions mid-sprint.
@@ -44,8 +44,33 @@ Before moving a User Story to "Ready for Sprint", verify:
 
 ### Non-functional requirements
 
-- [ ] Performance requirements are specified (if applicable)
-- [ ] Security requirements are considered (authentication, authorization, role validations)
-- [ ] Observability requirements are included (logs, metrics, traces)
+
+## Common reasons a story is NOT ready
+
+| Problem | What to do |
+|---------|-----------|
+| Unclear requirements | Schedule a 30-min refinement session with the PO |
+| Missing acceptance criteria | PO adds criteria before the next sprint |
+| Unknown dependencies | Tech Lead reviews and documents dependencies |
+| Too large (> 8 SP) | Break it down into smaller stories |
+| No access to test environment | DevOps generates credentials before sprint |
+| Unclear API contract | Agree on contract (OpenAPI) before starting |
 
 ---
+
+## DoR vs DoD
+
+| | Definition of Ready (DoR) | Definition of Done (DoD) |
+|-|--------------------------|--------------------------|
+| **When** | Before starting the story | After finishing the story |
+| **Who verifies** | Team in planning/refinement | Team in review |
+| **Purpose** | Ensure the team can start without blockers | Ensure the increment is shippable |
+
+---
+
+## Correlations
+
+- Full DoD → `00-governance/definition-of-done.md`
+- User Story template → `04-requirements/_template-hu.md`
+- User Stories backlog → `tasks.md`
+

@@ -1,4 +1,4 @@
-v# Definition of Ready (DoR)
+# Definition of Ready (DoR)
 
 > A User Story is **Ready** when the entire team can start it in the next sprint
 > without needing to resolve fundamental questions mid-sprint.
@@ -13,7 +13,7 @@ Before moving a User Story to "Ready for Sprint", verify:
 ### Clarity
 
 - [ ] The story is written in the format: **As [role], I want [action], so that [benefit]**
-- [ ] The role is specific (not "as a user" — "as an admin" or "as a seller")
+- [ ] The role is specific (not "as a user" — "as an authenticated buyer")
 - [ ] The expected benefit is clear and verifiable
 
 ### Acceptance Criteria
@@ -37,13 +37,18 @@ Before moving a User Story to "Ready for Sprint", verify:
 
 ### Technical readiness
 
-- [ ] The necessary accesses and environments are available (PostgreSQL 16.14 `simple-stock-flow-db-1`)
+- [ ] The necessary accesses and environments are available
 - [ ] The API contracts (OpenAPI) are defined if the story involves new endpoints
-- [ ] There is a definition of the data model if there are DB changes (aligned with `sales` schema)
+- [ ] There is a definition of the data model if there are DB changes
 - [ ] The impact on other services is identified
 
 ### Non-functional requirements
 
+- [ ] Performance requirements are specified (if applicable)
+- [ ] Security requirements are considered (authentication, authorization, validations)
+- [ ] Observability requirements are included (logs, metrics, traces)
+
+---
 
 ## Common reasons a story is NOT ready
 
@@ -72,5 +77,4 @@ Before moving a User Story to "Ready for Sprint", verify:
 
 - Full DoD → `00-governance/definition-of-done.md`
 - User Story template → `04-requirements/_template-hu.md`
-- User Stories backlog → `tasks.md`
-
+- User Stories backlog → `04-requirements/user-stories.md`

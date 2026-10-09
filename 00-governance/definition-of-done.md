@@ -34,3 +34,18 @@
 - [ ] If a significant technical decision was made: ADR created or updated in `adr/`
 
 ---
+
+
+## Allowed exceptions
+
+The following exceptions must be explicitly agreed to by the Tech Lead:
+- E2E tests omitted due to environment limitations (document the risk)
+- Documentation deferred for urgent delivery (create a tech-debt ticket in `tasks.md`)
+
+---
+
+## What is NOT a Done criterion
+
+- "The code is on my machine" — it must be in the repository
+- "It works on my local environment" — it must work on staging
+- "The PM/PO approved it" — that is the product Definition of Done, not the code's

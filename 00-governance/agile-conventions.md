@@ -49,6 +49,63 @@
 
 ### Backlog Refinement
 - **When:** Wednesday mid-sprint
+
+- ## Estimation
+
+### Scale
+
+| Points | Meaning |
+|--------|---------|
+| 1 | Trivial — done in hours |
+| 2 | Small — done in one day |
+| 3 | Medium — takes 2–3 days |
+| 5 | Large — takes almost a full sprint |
+| 8 | Very large — should be split |
+| 13 | Epic — MUST be split before the sprint |
+
+**Technique:** Planning Poker
+**Tool:** tasks.md internal tracking
+
+### Estimation rule
+- If there is disagreement of 2+ levels (e.g., someone says 3 and another says 8), discuss before voting again.
+- If a story is estimated at 8 or 13, it must be split into smaller sub-tasks.
+
+---
+
+## Backlog tool
+
+**Tool:** tasks.md
+**Board URL:** https://github.com
+
+### Board columns
+
+| Column | Meaning |
+|--------|---------|
+| Backlog | Pending refinement |
+| Ready | Ready to enter the sprint (meets DoR) |
+| In Progress | Someone is actively working on it |
+| In Review | In Pull Request / code review |
+| Done | Meets DoD and is closed |
+
+---
+
+## Team velocity
+
+| Sprint | Story points completed | Notes |
+|--------|----------------------|-------|
+| Sprint 1 | 12 | Debt task D-1 saldada (Baja lógica aplicada) |
+| Sprint 2 | 14 | Debt task D-2 saldada (Restricciones e índices en motor) |
+| Sprint 3 | 15 | Debt task D-3 saldada (Bloqueo de rol admin cerrado) |
+| Average | 13.6 | Base velocity derived from resolved technical debts |
+
+---
+
+## Related documents
+
+- Definition of Ready → `00-governance/definition-of-ready.md`
+- Definition of Done → `00-governance/definition-of-done.md`
+- Risk management → `15-project-control/risks.md`
+- Technical debt backlog → `tasks.md`
 - **Duration:** Maximum 1h
 - **Goal:** Detail and estimate user stories for the next sprint
 - **Exit criterion:** The user story meets the Definition of Ready
